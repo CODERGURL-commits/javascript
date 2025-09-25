@@ -11,3 +11,22 @@ document.getElementById('checkout-form').addEventListener('submit', function(eve
         alert('Form submitted successfully!');
     }
 });
+function controlFlow(score){
+
+    if(score >= 90){
+      console.log 'A';
+    } else if(score >= 70){
+         console.log'B';
+    }
+    else if (score >= 60){
+        console.log 'C';
+    }
+    else if(score >= 50){
+         console.log 'D';
+    }
+    else{
+         console.log 'Fail';
+    }
+
+} 
+controlFlow('85')
